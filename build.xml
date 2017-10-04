@@ -15,7 +15,7 @@
   <target name="jar" depends="init,compile">
     <jar destfile="${dist}/OS_Juice_Bottling.jar" basedir="${dist}/classes">
       <manifest>
-        <attribute name="Main-Class" value="Plant"/>
+        <attribute name="Main-Class" value="Orange_Juice_Bottling_Controller"/>
       </manifest>
     </jar>
   </target>
