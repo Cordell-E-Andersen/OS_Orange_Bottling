@@ -5,7 +5,6 @@
 public class Plant_MK_II implements Runnable {
 	// How long do we want to run the juice processing and number of oranges per
 	// bottle
-	public static final long PROCESSING_TIME = 5 * 1000;
 	public final int ORANGES_PER_BOTTLE = 4;
 
 	// plant information
@@ -16,8 +15,8 @@ public class Plant_MK_II implements Runnable {
 
 	// worker information
 	private static final int NUM_FETCHERS = 1;
-	private static final int NUM_PEELERS = 1;
-	private static final int NUM_SQUEEZERS = 1;
+	private static final int NUM_PEELERS = 3;
+	private static final int NUM_SQUEEZERS = 2;
 	private static final int NUM_BOTTLERS = 1;
 	private static final int NUM_PROCESSORS = 1;
 	private static final int NUM_WORKERS = NUM_FETCHERS + NUM_PEELERS + NUM_SQUEEZERS + NUM_BOTTLERS + NUM_PROCESSORS;
